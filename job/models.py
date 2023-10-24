@@ -15,7 +15,7 @@ class Job(models.Model):
     title = models.CharField(max_length=120)
     location = CountryField()
     created_at = models.DateTimeField(default=timezone.now)
-    Company = models.ForeignKey('Company', on_delete=models.CASCADE, related_name='job_company')
+    company = models.ForeignKey('Company', on_delete=models.CASCADE, related_name='job_company')
     salary_start = models.IntegerField(null=True, blank=True)
     salary_end = models.IntegerField(null=True, blank=True)
     description = models.TextField(max_length=15000)
