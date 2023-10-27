@@ -18,11 +18,11 @@ def job_detail_api(request,id):
     return Response({'job':data})
 '''
 
-class JobListAPI(generics.ListAPIView):
+class JobListAPI(generics.ListCreateAPIView):
     queryset = Job.objects.all()
     serializer_class = JobSerializers
     
-class JobDetailAPI(generics.RetrieveAPIView):
+class JobDetailAPI(generics.RetrieveUpdateDestroyAPIView):
     queryset = Job.objects.all()
     serializer_class = JobSerializers
     
