@@ -1,4 +1,5 @@
 #from rest_framework.decorators import api_view
+from rest_framework.permissions import IsAuthenticated
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import filters
 from rest_framework.response import Response
@@ -27,6 +28,7 @@ class JobListAPI(generics.ListCreateAPIView):
     filter_set_fields = ['title', 'vacancy', 'job_type']
     search_fields = ['title', 'description']
     ordering_fields = ['title', 'vacancy', 'salary_start', 'salary_start', 'experience']
+    permission_classes = [IsAuthenticated]
 
 
     
