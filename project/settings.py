@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django_countries',
     'django_filters',
     'rest_framework.authtoken',
+    'django_summernote',
 
     #my apps
     'job',
