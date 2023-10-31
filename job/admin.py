@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Job, Company, Category
+from .models import Job, Company, Category, JobApply
 from django_summernote.admin import SummernoteModelAdmin
 
 #class
@@ -16,4 +16,4 @@ class JobAdmin(SummernoteModelAdmin):
 admin.site.register(Job,JobAdmin)
 admin.site.register(Company)
 admin.site.register(Category)
-  
+admin.site.register(JobApply)

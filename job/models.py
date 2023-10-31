@@ -34,15 +34,12 @@ class Job(models.Model):
         ordering = ['-id']
 
 
-
 class Category(models.Model):
     name = models.CharField(max_length=30)
     logo = models.CharField(max_length=30, null=True, blank=True)
 
     def __str__(self):
         return self.name
-
-
 
 
 class Company(models.Model):
@@ -54,3 +51,17 @@ class Company(models.Model):
 
     def __str__(self):
         return self.name
+    
+
+class JobApply(models.Model):
+    job = models.ForeignKey(Job, related_name='apply_job', on_delete=models.CASCADE)
+    username = models.CharField(max_length=100)
+    email = models.EmailField()
+    linkedin_url =models.URLField(null=True, blank=True, help_text='Please enter your Linkedin profile url')
+    github_url =models.URLField(null=True, blank=True, help_text='Please enter your Github profile url')
+    cv = models.FileField(upload_to='cv', help_text='Please upload your CV')
+    cover_letter = models.TextField(max_length=500, help_text='Add your notes here ...')
+    created_at = models.DateTimeField(default=timezone.now)
+    
+    def __str__(self):
+        return self.username

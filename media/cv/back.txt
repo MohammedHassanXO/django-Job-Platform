@@ -1,0 +1,86 @@
+علشان تبقي Back End Developer
+
+انا هكتبلك شكل السؤال نفسه وانت تاخده كوبي بيست وتسيرش عنه في اليوتيوب هيظهرلك عشرات النتائج اختار منهم اللي عاوزه
+
+1- اول حاجة انا مش محتاجك تعلم اي حاجة برمجية انت محتاج تعرف العالم دي شغالة ازاي الاول وبيئة العمل اللي انت هتشتغل عليها
+
+* How does the internet work?
+* What is a programming language?
+* What is code editor
+* What is HTTP?
+* Browser how it works?
+* DNS and how it works?
+* What is Domain Name?
+* What is hosting?
+
+2. جميل جدًا عرفت الدنا شغالة ازاي ؟ .. محتاج بقا تبص بصة ع الحاجات الي تحت دي وتاخد عنهم فكرة سريعة وع الاقل ع الاقل تبقي واخد فكرة عامة عنهم وشوفت استخدماتهم ازاي وليه .. مش هقولك تبقي تنين .. بس لو عرفت تبقي متوسط يبقي عملت في عقلك جميلة عمره ما هينساها
+
+* HTML
+* CSS3
+* JavaScript
+
+3. خلصت دول وعاوز تخش ع اللي بعده حلو وجميل وطموح محتاج بس تتعلم شوية حاجات كمان قبل ما تتعلم لغة الباكيند الجميلة بتاعتك
+
+* How do operating systems work?
+* What is terminal?
+* CMD commands you should know
+
+4- انت كدة عظمة على كدة تعال بس لهدف البوست ده اساسا اللغة اللي انت هتشتغل بيها ,واللي ما بين القوسين دي اشهر مكتبه ليها هتسهل عليك حياتك في اللي منهم هتتعلمه اختياري وفي الاجباري .. ف خدهم بردو كوبي بيست واحده واحده وحطهم في عمنا اليوتيوب
+
+* C# ( .net )
+* Java (spring)
+* PHP (laravel)
+* Javascript (Nodejs)
+* Python (Django)
+* Ruby (Roda)
+* Rust
+* GO
+
+5- انت وبتتعلم الحاجات اللي فوق دي محتاج تاخد نظره وتعرف يعني ايه الحاجات اللي تحت دي
+
+* What is Github?
+* What is Git?
+* Learn Git
+
+6- خلصت بقا اللغة اللي انت اتعلمتها فوق دي ومشيت في مكتبتها نيجي بقا لاهم حاجة بتميزك علشان انت Back End مغفلق وهي لغة الداتا بيز بس معلش قبل اما تختار لغة الداتا بيز اللي هتتعامل معاها بص بصه على دول .. انت مش هتفهم نصهم علشان ما وجهت المشكلة بتاعتهم بس صدقني هتريحك بعدين .. بالإضافة لإنك بعد اما تخلص داتا بيز هترجعلهم تاني كمان مرة بس المرة دي انت هتكون على دراية كاملة بيهم
+
+* What is REST API
+* What is SOAP
+* ACID database meaning?
+* What is an ORM?
+* What is a database transaction?
+* N+1 selects problem in ORM
+* What is Database Normalization?
+* What is indexes in database
+* What is Data Replication?
+* How Sharding Works
+* What is CAP theorem
+
+7- نيجي بقا للداتا بيز بس قبل اما تبدأ في نوعين ليهم دلوقتي وهرتبهملك حسب النوع بس حاول تنسخ العنوان بتاعهم وتسيرش عنه قبل اما تختار اللغة اللي انت هتتعلمها فعلا
+
+** Relational Database
+* MySQL
+* MariaDB
+* Postgre SQL
+* MS SQL
+* Oracle
+
+** NoSQL Database
+* MongoDB
+* RethinkDB
+* CouchDB
+* DynamoDB
+
+8- ارجع كمان مرة لرقم 6 علشان دلوقتي محتاجهم فعلا وكمان معاهم المره دي خد دول معاك خدلك بصة عليهم
+* Authentication
+* GraphQL
+* HTTPS
+* CORS
+* SSL/TLS
+* Hashing Algorithm
+
+9- انت كدة جامد اتعلمت لغة الباكيند وكمان لغة الداتا بيز واتعلمت تعمل بيهم مواقع جامدة وكمان ازاي تحميهم زي الفل محتاج بقا اخر حاجة وهي انك تعمل تيست للي انت عملته قبل اما تدي الموقع ده لحد وهنا محتاج تبص على دول وترشق اسم اللغة بتاعتك جمبها
+
+* Integration Testing
+* Unit Testing
+* Functional Testing
