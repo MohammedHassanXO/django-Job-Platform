@@ -30,6 +30,8 @@ class Job(models.Model):
         self.slug = slugify(self.title)
         super(Job, self).save(*args, **kwargs) #call the real save() method
     
+    class Meta:
+        ordering = ['-id']
 
 
 
